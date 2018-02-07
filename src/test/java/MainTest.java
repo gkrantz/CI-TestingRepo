@@ -40,6 +40,8 @@ class MainTest {
         assertNotEquals(null, actual);
         assertEquals(expected, actual);
         assertEquals(true, true);
+        
+        assertEquals(true, true);
 
     }
 
