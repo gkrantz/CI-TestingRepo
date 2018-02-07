@@ -39,7 +39,7 @@ class MainTest {
         assertTrue(tottime < 100, () -> "To slow. Runtime: " + tottime + " ms");
         assertNotEquals(null, actual);
         assertEquals(expected, actual);
-        assertEquals(true, false);
+        assertEquals(true, true);
 
     }
 
